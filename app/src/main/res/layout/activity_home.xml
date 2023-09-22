@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/home"
+    android:orientation="vertical">
+    <TextView
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:paddingStart="8dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Mr.Xyz"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:drawableRight="@drawable/baseline_search_24"
+        android:id="@+id/searchEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:singleLine="true"
+        android:padding="8dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
