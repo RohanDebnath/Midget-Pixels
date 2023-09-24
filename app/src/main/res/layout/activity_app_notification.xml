@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppNotification"
+    android:orientation="vertical"
+    android:background="@drawable/home">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <EditText
+        android:background="@drawable/reg_edittextstle"
+        android:drawableRight="@drawable/baseline_search_24"
+        android:id="@+id/NotifcationSearch"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:textStyle="bold"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:singleLine="true"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/black" />
+
+    <!-- FrameLayout to set the background color of Calender -->
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:padding="12dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#F0F0F0">
+
+        <CalendarView
+            android:padding="12dp"
+            android:layout_margin="10dp"
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</LinearLayout>

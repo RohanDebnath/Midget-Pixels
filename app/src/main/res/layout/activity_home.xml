@@ -9,67 +9,37 @@
     android:orientation="vertical">
     <TextView
         android:padding="8dp"
-<<<<<<< HEAD
-        android:layout_margin="8dp"
-=======
         android:layout_marginStart="8dp"
->>>>>>> 61c2cbe (Upto Home Page Creation)
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome"
         android:textColor="@color/black"
-<<<<<<< HEAD
-        android:textSize="24sp"
-        android:textStyle="bold"
-        />
-    <TextView
-        android:paddingStart="8dp"
-=======
         android:textSize="18sp"
         android:textStyle="bold"
         />
     <TextView
         android:padding="8dp"
->>>>>>> 61c2cbe (Upto Home Page Creation)
         android:layout_marginStart="8dp"
         android:id="@+id/welcomeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:text="Mr.Xyz"
-<<<<<<< HEAD
-        android:textSize="24sp"
-        android:textStyle="bold"
-        />
-    <EditText
-        android:background="@drawable/custom_edittext"
-=======
         android:textSize="18sp"
         android:textStyle="bold"
         />
     <EditText
         android:background="@drawable/reg_edittextstle"
->>>>>>> 61c2cbe (Upto Home Page Creation)
         android:drawableRight="@drawable/baseline_search_24"
         android:id="@+id/searchEditText"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:hint="Search"
-=======
         android:hint=" Search"
         android:textStyle="bold"
->>>>>>> 61c2cbe (Upto Home Page Creation)
         android:imeOptions="actionSearch"
         android:inputType="text"
         android:singleLine="true"
         android:padding="8dp"
-<<<<<<< HEAD
-        android:layout_marginTop="38dp"
-        android:layout_marginStart="8dp"
-        android:textColor="@android:color/black" />
-
-=======
 
         android:layout_marginStart="8dp"
         android:textColor="@android:color/black" />
@@ -138,5 +108,4 @@
             android:textStyle="bold" />
     </LinearLayout>
 
->>>>>>> 61c2cbe (Upto Home Page Creation)
 </LinearLayout>
