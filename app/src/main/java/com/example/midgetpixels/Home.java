@@ -41,6 +41,14 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button profile= findViewById(R.id.userBtn);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, profile.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

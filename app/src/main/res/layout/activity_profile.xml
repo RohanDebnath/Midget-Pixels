@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:orientation="vertical"
+    android:background="@drawable/home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <EditText
+        android:background="@drawable/reg_edittextstle"
+        android:drawableRight="@drawable/baseline_search_24"
+        android:id="@+id/profileSearch"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:textStyle="bold"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:singleLine="true"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/black" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="58dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:hint="Rohan Debnath"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_edittextstle"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+        android:text="Credit Points"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_edittextstle"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+        android:text="  Coupons"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_card_giftcard_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_edittextstle"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+        android:text="  Contact Us"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_headphones_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        />  <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_edittextstle"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+        android:text="  Select Language"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_sort_by_alpha_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reg_edittextstle"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+        android:text=" Logout"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_logout_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        />
+
+</LinearLayout>
