@@ -41,12 +41,13 @@
         android:layout_gravity="center"
         android:layout_marginTop="52dp" />
     <TextView
+        android:id="@+id/profileUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:textSize="18dp"
         android:textStyle="bold"
-        android:hint="Rohan Debnath"
+        android:hint="User Name"
         android:gravity="center"
         />
 
@@ -106,6 +107,7 @@
         android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
         />
     <TextView
+        android:id="@+id/logoutBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/reg_edittextstle2"
